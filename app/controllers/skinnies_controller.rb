@@ -1,0 +1,2 @@
+class SkinniesController < ApplicationController
+end
