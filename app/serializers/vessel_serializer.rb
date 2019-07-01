@@ -1,5 +1,5 @@
 class VesselSerializer < ActiveModel::Serializer
-  attributes :id, :vessel_id, :name, :operator, :splash_date, :skinny
+  attributes :id, :vessel_id, :name, :operator, :splash_date, :active, :skinny
 
 	def skinny 
 		activeSkinnies = self.object.skinnies.select { |hash| hash[:active] }
