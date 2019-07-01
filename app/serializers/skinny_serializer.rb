@@ -1,5 +1,5 @@
 class SkinnySerializer < ActiveModel::Serializer
-  attributes :id, :skinny_id, :thought, :vessel
+  attributes :id, :skinny_id, :thought, :active, :vessel
 
 	def vessel
     {
