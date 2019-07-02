@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Please fork and clone this project down to your machine.
 
-Things you may want to cover:
+You may need to build the db:
 
-* Ruby version
+rake db:drop
+rake db:create
+rake db:migrate
 
-* System dependencies
+To get the server up and running execute (you need to run on port 3001):
+rails s -p 3001
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+There is a React/Redux frontend to pair with this server at https://github.com/cpdundon/cruise_skinny_frontend
