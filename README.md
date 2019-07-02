@@ -5,7 +5,9 @@ Please fork and clone this project down to your machine.
 You may need to build the db:
 
 rake db:drop
+
 rake db:create
+
 rake db:migrate
 
 To get the server up and running execute (you need to run on port 3001):
